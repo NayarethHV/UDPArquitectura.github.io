@@ -75,6 +75,8 @@ ul li ul.dropdown {
     position: absolute;
     z-index: 999;
     display: none;
+    padding-top: 100px;
+    padding-bottom: -100px;
 }
 
 ul li a:hover {
