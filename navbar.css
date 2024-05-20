@@ -1,0 +1,336 @@
+.navbar {
+    background-color: #CC2936; /*0D0029*/
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 45px; 
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    z-index: 4;     
+}
+
+.navbar-title {
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1%;
+    width: auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    flex-shrink: 0;
+    position: absolute;
+    padding-left: 660px;
+    width: 1720px;
+    margin-left: 30px;
+    gap: 10px;
+    
+}
+
+  
+.nav-links li {
+    margin-right: 0px;
+    margin-left: 0px;
+    align-items: center;
+    display: flex;
+
+}
+  
+  
+.nav-links li a {
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-start;
+    color: #D0D0D0;
+    opacity: 40%;
+    padding: 8px 16px;
+
+}
+
+.nav-links li a.active {
+    background-color: #b40917; /* */
+    padding: 8px 16px;
+    opacity: 100%;
+}
+
+.nav-links li a:hover {
+    color: #fff;
+    opacity: 100%;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 50%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: #EAEAEA;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+.navbar-falso {
+    width: 1440px;
+    height: 60px;
+    background-color: #CC2936;
+}
+
+.minicontenedor-año3 {
+height: auto;
+}
+
+
+.titulo-año3 {
+    display: inline-flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.contenedorclases-año3 {
+    width: 1400px;
+    height: 200px;
+    margin-left: 50px;
+
+}
+
+.clase1-año3 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.tituloclase1-año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+}
+
+.rectangulo-clase1 {
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+.clase2-año3 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.tituloclase2-año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.rectangulo-clase2 {
+    background-color: #F4B6A5;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+.clase3-año3 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.tituloclase3-año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+}
+
+.rectangulo-clase3 {
+    background-color: #CE8C7C;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+.clase4-año3 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.tituloclase4-año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.rectangulo-clase4 {
+    background-color: #A7B2B7;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+.clase5-año3 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.tituloclase5-año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.rectangulo-clase5 {
+    background-color: #E4BC7C;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+.titulo2-año3 {
+    display: inline-flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 50px;
+
+}
+
+.contenedorclases2-año3 {
+    width: 1400px;
+    height: 300px;
+    margin-left: 50px;
+
+}
+
+.clase6-año3 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.tituloclase6-año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.rectangulo-clase6 {
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+}
+
+.clase7-año3 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.tituloclase7-año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.rectangulo-clase7 {
+    background-color: #F4B6A5;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+}
+
+.clase8-año3 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.tituloclase8-año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.rectangulo-clase8 {
+    background-color: #D36E54;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+}
+
+.clase9-año3 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.tituloclase9-año3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.rectangulo-clase9 {
+    background-color: #DFCCC5;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+
